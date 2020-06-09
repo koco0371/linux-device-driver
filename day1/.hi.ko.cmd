@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/github/linux-device-driver/day1/hi.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/github/linux-device-driver/day1/hi.ko /home/pi/Desktop/github/linux-device-driver/day1/hi.o /home/pi/Desktop/github/linux-device-driver/day1/hi.mod.o ;  true
