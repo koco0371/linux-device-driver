@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/github/linux-device-driver/day3/koco.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/github/linux-device-driver/day3/koco.ko /home/pi/Desktop/github/linux-device-driver/day3/koco.o /home/pi/Desktop/github/linux-device-driver/day3/koco.mod.o ;  true
